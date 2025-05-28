@@ -1,0 +1,39 @@
+.loan-form {
+    background: lightyellow;
+  padding: 20px;
+  border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .full-width {
+    grid-column: span 2;
+  }
+  
+  input, select {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+  }
+
+  .result {
+    margin-top: 2rem;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    grid-column: span 2;
+  }
